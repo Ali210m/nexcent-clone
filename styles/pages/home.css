@@ -1,0 +1,396 @@
+@import url(../global/global.css);
+
+.main-hero {
+  background-color: #f5f7fa;
+  height: 599px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 144px 161.5px;
+}
+
+.hero-info {
+  width: 657px;
+  height: 276px;
+}
+
+.hero-title {
+  font-size: 64px;
+  font-weight: 600;
+  color: #4d4d4d;
+}
+
+.hero-title-dc {
+  color: #4caf4f;
+}
+
+.hero-description {
+  font-size: 16px;
+  font-weight: 400;
+  color: #717171;
+  margin-top: 16px;
+}
+
+.btn-hero {
+  color: #ffffff;
+  background-color: #4caf4f;
+  padding: 14px 32px;
+  margin-top: 32px;
+  border: none;
+  border-radius: 4px;
+}
+
+.clients-section {
+  margin-top: 40px;
+}
+.clients-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.clients-title {
+  font-size: 36px;
+  font-weight: 600;
+  color: #4d4d4d;
+}
+.clients-description {
+  font-size: 16px;
+  font-weight: 400;
+  color: #717171;
+  line-height: 44px;
+}
+
+.clients-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 136px;
+  margin-top: 16px;
+}
+
+.community-section {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.community-title {
+  font-size: 36px;
+  font-weight: 600;
+  color: #4d4d4d;
+  width: 542px;
+  text-align: center;
+}
+
+.community-description {
+  font-size: 16px;
+  font-weight: 400;
+  color: #717171;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.main-community-content {
+  margin-top: 16px;
+  width: 100%;
+}
+
+.community-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 144px;
+}
+
+.community-card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 299px;
+  height: 260px;
+  border-radius: 8px;
+  padding: 24px 16px;
+  box-shadow: 0px 2px 4px #abbed133;
+}
+
+.community-card-title {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #4d4d4d;
+  text-align: center;
+  width: 231px;
+  margin-top: 16px;
+}
+
+.community-card-description {
+  font-size: 14px;
+  font-weight: 400;
+  color: #717171;
+  line-height: 20px;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.community-about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 49px;
+  margin-top: 42px;
+  padding: 0 144px;
+  height: 433px;
+  width: 100%;
+}
+
+.community-about-info {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 661px;
+  height: 268px;
+}
+
+.community-about-title {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  color: #4d4d4d;
+  width: 601px;
+}
+
+.community-about-description {
+  font-size: 14px;
+  font-weight: 400;
+  color: #717171;
+  line-height: 20px;
+  margin-top: 16px;
+  width: 601px;
+}
+
+.community-about-button {
+  color: #ffffff;
+  background-color: #4caf4f;
+  padding: 14px 32px;
+  margin-top: 32px;
+  border: none;
+  border-radius: 4px;
+}
+
+.main-community-helping {
+  background-color: #f5f7fa;
+  height: 288px;
+  width: 100%;
+}
+
+.community-helping {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 64px 144px;
+}
+
+.community-helping-title {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  color: #4d4d4d;
+  width: 408px;
+}
+
+.community-helping-title-dc {
+  color: #4caf4f;
+}
+
+.community-helping-description {
+  font-size: 16px;
+  font-weight: 400;
+  color: #18191f;
+  line-height: 24px;
+  margin-top: 8px;
+}
+
+.community-helping-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 540px;
+  height: 160px;
+}
+
+.community-helping-card {
+  display: flex;
+  align-items: center;
+  width: 255px;
+  height: 60px;
+  gap: 16px;
+}
+
+.helping-card-box {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.helping-card-value {
+  font-size: 28px;
+  font-weight: 700;
+  color: #4d4d4d;
+  line-height: 36px;
+}
+.helping-card-customer {
+  font-size: 16px;
+  font-weight: 400;
+  color: #717171;
+  line-height: 24px;
+}
+
+.main-community-customer-about {
+  height: 390px;
+  margin-top: 48px;
+  width: 100%;
+  background-color: #f5f7fa;
+}
+.community-customer-about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 78px;
+  padding: 32px 144px;
+}
+
+.customer-about-description {
+  font-size: 16px;
+  font-weight: 500;
+  color: #717171;
+  line-height: 24px;
+}
+
+.customer-about-title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #4caf4f;
+  margin-top: 16px;
+}
+
+.customer-about-desc2 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #89939e;
+  margin-top: 8px;
+}
+
+.marketing-section-first {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-top: 48px;
+  padding: 32px 144px;
+  height: 506px;
+}
+.marketing-title {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  color: #4d4d4d;
+}
+
+.marketing-description {
+  font-size: 16px;
+  font-weight: 400;
+  color: #717171;
+  line-height: 24px;
+  margin-top: 8px;
+  text-align: center;
+  width: 628px;
+  margin-top: 8px;
+}
+
+.marketing-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 16px;
+}
+.marketing-card {
+  position: relative;
+}
+
+.marketing-info {
+  position: absolute;
+  top: 190px;
+  left: 25.5px;
+  background-color: #f5f7fa;
+  padding: 16px;
+  border-radius: 8px;
+  width: 317px;
+  height: 176px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 24px;
+  box-shadow: 0px 8px 16px #abbed166;
+}
+
+.marketing-info-title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #717171;
+  width: 285px;
+  height: 84px;
+  text-align: center;
+}
+
+.marketing-info-link {
+  color: #4caf4f;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.marketing-about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 32px;
+  padding: 32px 0;
+  margin-top: 94.6px;
+  background-color: #f5f7fa;
+}
+.marketing-about-title {
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 76px;
+  color: #263238;
+  text-align: center;
+  width: 887px;
+  height: 152px;
+}
+
+.marketing-about-button {
+  background-color: #4caf4f;
+  color: #ffffff;
+  border: none;
+  padding: 14px 32px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
