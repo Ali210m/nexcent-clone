@@ -1,10 +1,11 @@
 @import url(./reset.css);
+@import url(./variable.css);
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 body {
   font-family: "Inter", sans-serif;
 }
 .header {
-  background-color: #f5f7fa;
+  background-color: var(--secondary-color);
   height: 84px;
   position: sticky;
   top: 0;
@@ -58,15 +59,15 @@ body {
 }
 
 .btn-login {
-  color: #4caf4f;
+  color: var(--primary-color);
   background-color: transparent;
   border: none;
   padding: 10px 20px;
 }
 
 .btn-signup {
-  color: #ffffff;
-  background-color: #4caf4f;
+  color: var(--color-white);
+  background-color: var(--primary-color);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -77,7 +78,7 @@ body {
   border-radius: 6px;
 }
 .main-footer {
-  background-color: #263238;
+  background-color: var(--footer-background-color);
   width: 100%;
   height: 328px;
 }
@@ -104,14 +105,14 @@ body {
 .footer-first-box-title {
   font-size: 28px;
   font-weight: 600;
-  color: #ffffff;
+  color: var(--color-white);
 }
 
 .footer-first-box-description-text {
   font-size: 14px;
   font-weight: 400;
   line-height: 25px;
-  color: #f5f7fa;
+  color: var(--secondary-color);
   width: 210px;
 }
 
@@ -129,14 +130,14 @@ body {
   font-size: 20px;
   font-weight: 600;
   line-height: 28px;
-  color: #ffffff;
+  color: var(--color-white);
 }
 
 .footer-second-box-link {
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
-  color: #f5f7fa;
+  color: var(--secondary-color);
 }
 
 .footer-second-box-list {
@@ -153,7 +154,7 @@ body {
   height: 40px;
   border: none;
   border-radius: 8px;
-  color: #ffffff;
+  color: var(--secondary-color);
   opacity: 20%;
   padding-left: 12px;
 }

@@ -1,7 +1,7 @@
 @import url(../global/global.css);
 
 .main-hero {
-  background-color: #f5f7fa;
+  background-color: var(--secondary-color);
   height: 599px;
 }
 
@@ -20,23 +20,23 @@
 .hero-title {
   font-size: 64px;
   font-weight: 600;
-  color: #4d4d4d;
+  color: var(--primary-text-color);
 }
 
 .hero-title-dc {
-  color: #4caf4f;
+  color: var(--primary-color);
 }
 
 .hero-description {
   font-size: 16px;
   font-weight: 400;
-  color: #717171;
+  color: var(--description-color);
   margin-top: 16px;
 }
 
 .btn-hero {
-  color: #ffffff;
-  background-color: #4caf4f;
+  color: var(--color-white);
+  background-color: var(--primary-color);
   padding: 14px 32px;
   margin-top: 32px;
   border: none;
@@ -57,12 +57,12 @@
 .clients-title {
   font-size: 36px;
   font-weight: 600;
-  color: #4d4d4d;
+  color: var(--primary-text-color);
 }
 .clients-description {
   font-size: 16px;
   font-weight: 400;
-  color: #717171;
+  color: var(--description-color);
   line-height: 44px;
 }
 
@@ -85,7 +85,7 @@
 .community-title {
   font-size: 36px;
   font-weight: 600;
-  color: #4d4d4d;
+  color: var(--primary-text-color);
   width: 542px;
   text-align: center;
 }
@@ -93,7 +93,7 @@
 .community-description {
   font-size: 16px;
   font-weight: 400;
-  color: #717171;
+  color: var(--description-color);
   line-height: 24px;
   text-align: center;
   margin-top: 8px;
@@ -126,7 +126,7 @@
   font-size: 28px;
   font-weight: 700;
   line-height: 36px;
-  color: #4d4d4d;
+  color: var(--primary-text-color);
   text-align: center;
   width: 231px;
   margin-top: 16px;
@@ -135,7 +135,7 @@
 .community-card-description {
   font-size: 14px;
   font-weight: 400;
-  color: #717171;
+  color: var(--description-color);
   line-height: 20px;
   text-align: center;
   margin-top: 8px;
@@ -164,22 +164,22 @@
   font-size: 36px;
   font-weight: 600;
   line-height: 44px;
-  color: #4d4d4d;
+  color: var(--primary-text-color);
   width: 601px;
 }
 
 .community-about-description {
   font-size: 14px;
   font-weight: 400;
-  color: #717171;
+  color: var(--description-color);
   line-height: 20px;
   margin-top: 16px;
   width: 601px;
 }
 
 .community-about-button {
-  color: #ffffff;
-  background-color: #4caf4f;
+  color: var(--color-white);
+  background-color: var(--primary-color);
   padding: 14px 32px;
   margin-top: 32px;
   border: none;
@@ -187,7 +187,7 @@
 }
 
 .main-community-helping {
-  background-color: #f5f7fa;
+  background-color: var(--secondary-color);
   height: 288px;
   width: 100%;
 }
@@ -203,12 +203,12 @@
   font-size: 36px;
   font-weight: 600;
   line-height: 44px;
-  color: #4d4d4d;
+  color: var(--primary-text-color);
   width: 408px;
 }
 
 .community-helping-title-dc {
-  color: #4caf4f;
+  color: var(--primary-color);
 }
 
 .community-helping-description {
@@ -245,13 +245,13 @@
 .helping-card-value {
   font-size: 28px;
   font-weight: 700;
-  color: #4d4d4d;
+  color: var(--primary-text-color);
   line-height: 36px;
 }
 .helping-card-customer {
   font-size: 16px;
   font-weight: 400;
-  color: #717171;
+  color: var(--description-color);
   line-height: 24px;
 }
 
@@ -259,7 +259,7 @@
   height: 390px;
   margin-top: 48px;
   width: 100%;
-  background-color: #f5f7fa;
+  background-color: var(--secondary-color);
 }
 .community-customer-about {
   display: flex;
@@ -272,7 +272,7 @@
 .customer-about-description {
   font-size: 16px;
   font-weight: 500;
-  color: #717171;
+  color: var(--description-color);
   line-height: 24px;
 }
 
@@ -280,7 +280,7 @@
   font-size: 20px;
   font-weight: 600;
   line-height: 28px;
-  color: #4caf4f;
+  color: var(--primary-color);
   margin-top: 16px;
 }
 
@@ -305,13 +305,13 @@
   font-size: 36px;
   font-weight: 600;
   line-height: 44px;
-  color: #4d4d4d;
+  color: var(--primary-text-color);
 }
 
 .marketing-description {
   font-size: 16px;
   font-weight: 400;
-  color: #717171;
+  color: var(--description-color);
   line-height: 24px;
   margin-top: 8px;
   text-align: center;
@@ -334,7 +334,7 @@
   position: absolute;
   top: 190px;
   left: 25.5px;
-  background-color: #f5f7fa;
+  background-color: var(--secondary-color);
   padding: 16px;
   border-radius: 8px;
   width: 317px;
@@ -351,14 +351,14 @@
   font-size: 20px;
   font-weight: 600;
   line-height: 28px;
-  color: #717171;
+  color: var(--description-color);
   width: 285px;
   height: 84px;
   text-align: center;
 }
 
 .marketing-info-link {
-  color: #4caf4f;
+  color: var(--primary-color);
   font-size: 20px;
   font-weight: 600;
   line-height: 28px;
@@ -372,7 +372,7 @@
   gap: 32px;
   padding: 32px 0;
   margin-top: 94.6px;
-  background-color: #f5f7fa;
+  background-color: var(--secondary-color);
 }
 .marketing-about-title {
   font-size: 64px;
@@ -385,8 +385,8 @@
 }
 
 .marketing-about-button {
-  background-color: #4caf4f;
-  color: #ffffff;
+  background-color: var(--primary-color);
+  color: var(--color-white);
   border: none;
   padding: 14px 32px;
   border-radius: 4px;
